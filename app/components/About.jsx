@@ -3,8 +3,10 @@ var React = require('react');
 var About = (props) => {
   return(
     <div>
-      <h3>About</h3>
-      <p>This is my bullshit p tag</p>
+      <h1 className="text-center">About</h1>
+      <p>
+        This is just a simple weather app. It hooks up and pulls data from <a href="http://openweathermap.org/" target="_blank">Open Weather Map</a>. The application is built on <a href="https://facebook.github.io/react" target="_blank">React</a>.
+      </p>
     </div>
   );
 };
